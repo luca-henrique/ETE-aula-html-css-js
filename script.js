@@ -71,11 +71,11 @@ function insertItem(item, index) {
 }
 
 btnSalvar.onclick = (e) => {
-  e.preventDefault();
-
   if (sNome.value == '' || sFuncao.value == '' || sSalario.value == '') {
     return;
   }
+
+  e.preventDefault();
 
   if (id !== undefined) {
     itens[id].nome = sNome.value;
