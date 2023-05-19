@@ -156,3 +156,13 @@ tbody tr td.acao {
   align-items: center;
   justify-content: center;
 }
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  background-color: white;
+  border-radius: 10px;
+  width: 50%;
+}
