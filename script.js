@@ -30,3 +30,8 @@ function openModal(edit = false, index = 0) {
   }
   
 }
+
+function editItem(index) {
+
+  openModal(true, index)
+}
