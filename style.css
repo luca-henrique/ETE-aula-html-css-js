@@ -78,3 +78,7 @@ table {
 thead {
   background-color: whitesmoke;
 }
+
+tr {
+  border-bottom: 1px solid rgb(238, 235, 235)!important;
+}
