@@ -98,3 +98,8 @@ thead tr th {
 tbody tr {
   margin-bottom: 50px;
 }
+
+thead tr th.acao {
+  width: 100px!important;
+  text-align: center;
+}
