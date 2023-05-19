@@ -44,9 +44,26 @@ button {
 
 #btn-incluir-funcionario {
   font-size: 16px;
-  padding: 8px;
+  padding: 8px 18px ;
   border-radius: 5px;
   border: none;
   color: white;
   background-color: rgb(57, 57, 226);
+}
+
+.container-table {
+  padding: 10px;
+  width: auto; 
+  height:inherit; 
+  overflow:auto;
+}
+
+.container-table::-webkit-scrollbar {
+  width: 12px;
+  background-color: whitesmoke; 
+}
+
+.container-table::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: darkgray; 
 }
