@@ -94,3 +94,7 @@ thead tr th {
   text-align: start;
   margin-bottom: 50px;
 }
+
+tbody tr {
+  margin-bottom: 50px;
+}
