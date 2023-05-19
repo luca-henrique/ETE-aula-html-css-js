@@ -213,3 +213,17 @@ tbody tr td.acao {
     transform: translate3d(0, 0, 0);
   }
 }
+
+td button {
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+td button i {
+  font-size: 25px;
+}
+
+td button i:first-child {
+  margin-right: 10px;
+}
