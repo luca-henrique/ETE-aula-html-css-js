@@ -41,3 +41,12 @@ button {
   font-size: 20px;
   word-break: break-all;
 }
+
+#btn-incluir-funcionario {
+  font-size: 16px;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  background-color: rgb(57, 57, 226);
+}
