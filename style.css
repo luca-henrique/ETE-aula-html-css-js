@@ -166,3 +166,8 @@ tbody tr td.acao {
   border-radius: 10px;
   width: 50%;
 }
+
+.modal label {
+  font-size: 14px;
+  width: 100%;
+}
