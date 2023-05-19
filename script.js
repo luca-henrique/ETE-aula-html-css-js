@@ -35,3 +35,9 @@ function editItem(index) {
 
   openModal(true, index)
 }
+
+function deleteItem(index) {
+  itens.splice(index, 1)
+  setItensBD()
+  loadItens()
+}
