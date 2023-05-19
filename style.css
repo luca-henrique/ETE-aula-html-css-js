@@ -20,3 +20,10 @@ body {
 button {
   cursor: pointer;
 }
+
+.container {
+  width: 90%;
+  height: 80%;
+  border-radius: 10px;
+  background: white;
+}
